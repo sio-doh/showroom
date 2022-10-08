@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Global Variable */ 
+:root {
+    --main: #33FF39;
+}
+* {
+    font-family: "Roboto", serif;
+}
+*::selection {
+    background: var(--main); 
+    color: #fff;
+}

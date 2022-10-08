@@ -1,7 +1,9 @@
+import "./App.css"; 
+
 const App = () => {
   return (
     <>
-      <h1>Showroom</h1>
+      <h1>Carr Showroom</h1>
     </>
   )
 }
