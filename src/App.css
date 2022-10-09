@@ -11,3 +11,14 @@
     background: var(--main); 
     color: #fff;
 }
+.btn {
+    width: 300px; 
+    background: var(--main); 
+    color: #fff !important; 
+    border-radius: 20px; 
+    transition: 0.3s;
+}
+.btn:hover {
+    letter-spacing: 3px; 
+    width: 300px;
+}
