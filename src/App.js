@@ -1,11 +1,12 @@
 import "./App.css"; 
+import Navbar from "./Components/Navbar/navbar";
 
 const App = () => {
   return (
     <>
-      <h1>Carr Showroom</h1>
+      <Navbar />
     </>
   )
 }
 
-export default App
+export default App;
