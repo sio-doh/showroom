@@ -3,7 +3,7 @@ import "./navbar.css";
 const Navbar = () => {
     return (
         <>
-            <nav className="navbar navbar-expand bg-dark">
+            <nav className="navbar navbar-expand fixed-top">
                 <a href="#" className="navbar-brand">
                     <span>C</span>arr Showroom
                 </a>

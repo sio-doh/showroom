@@ -1,7 +1,8 @@
 .navbar {
     padding: 20px; 
     display: flex; 
-    justify-content: space-between;
+    justify-content: space-between; 
+    border-bottom: 2px solid #33FF39;
 } 
 .navbar-brand {
     font-size: 3em;
@@ -21,5 +22,5 @@
     margin-left: 5px;
 } 
 .nav-link:hover {
-    color: var(--main) !important;
+    color: var(--main) !important; 
 }
