@@ -1,9 +1,23 @@
-import "./navbar.css";
+import "./navbar.css"; 
+import React, { useState } from "react";
 
 const Navbar = () => {
+    const [navbar, setNavbar] = useState(false); 
+    const changeBg = () => {
+        if (window.scrollY >= 100) {
+            setNavbar(true);
+        } else {
+            setNavbar(false);
+        }
+    }; 
+    window.addEventListener("scroll", changeBg);
     return (
         <>
-            <nav className="navbar navbar-expand fixed-top">
+            <nav className={
+                navbar 
+                ? "navbar navbar-expand fixed-top active"
+                : "navbar navbar-expand fixed-top"
+            }>
                 <a href="#" className="navbar-brand">
                     <span>C</span>arr Showroom
                 </a>

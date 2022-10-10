@@ -21,4 +21,13 @@
 .btn:hover {
     letter-spacing: 3px; 
     width: 300px;
+} 
+html::-webkit-scrollbar {
+    width: 10px;
+}
+html::-webkit-scrollbar-thumb {
+    background: var(--main);
+}
+html::-webkit-scrollbar-track {
+    background: #000;
 }
