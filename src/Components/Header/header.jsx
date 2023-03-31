@@ -1,7 +1,8 @@
 import HeaderImg from "../../Images/header.jpg";
 import "./header.css"; 
+import { Link } from "react-router-dom";
 
-const Header = () => {
+const Header = () => { 
     return (
         <>
             <div className="header">
@@ -13,7 +14,7 @@ const Header = () => {
                 </div>
                 <div className="Content">
                     <h6>{" "} Fancy Renting A <span>Snazzy</span> Car?</h6>
-                    <button className="btn">Read More</button>
+                    <Link to="/gallery" className="btn">Read More</Link>
                 </div>
             </div>
         </>

@@ -25,15 +25,14 @@ const Navbar = () => {
                 <div>
                     <ul className="navbar-nav">
                         <li><a href="" className="nav-link">Home</a></li>
-                        <li><a href="about.jsx#about-section" className="nav-link">About</a></li>
-                        {/* <li>
-                            <Link to="about" smooth={true} duration={500} className="nav-link">
+                        <li>
+                            <Link to="about-section" smooth={true} duration={500} className="nav-link">
                                 About
                             </Link>
-                        </li> */}
+                        </li>
                         <li><a href="" className="nav-link">Contact</a></li>
                         <li>
-                            <Link to="details" smooth={true} duration={500} className="nav-link">
+                            <Link to="details-section" smooth={true} duration={500} className="nav-link">
                                 Gallery
                             </Link>
                         </li>
