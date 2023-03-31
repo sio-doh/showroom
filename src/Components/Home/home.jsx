@@ -1,14 +1,14 @@
-import HeaderImg from "../../Images/header.jpg";
-import "./header.css"; 
+import HomeImg from "../../Images/home.jpg";
+import "./home.css"; 
 import { Link } from "react-router-dom";
 
-const Header = () => { 
+const home = () => { 
     return (
         <>
-            <div className="header">
+            <div className="home">
                 <div className="img">
                     <div>
-                        <img src={HeaderImg} alt="" />
+                        <img src={HomeImg} alt="" />
                     </div>
                     <div className="Overlay"></div>
                 </div>
@@ -21,4 +21,4 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default home;

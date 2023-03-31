@@ -5,7 +5,8 @@
 }
 .about img {
     height: 350px; 
-    width: 600px; 
+    /* width: 600px;  */
+    width: 100%;
     object-fit: cover;
 }
 .about .col-sm-6 h6 {

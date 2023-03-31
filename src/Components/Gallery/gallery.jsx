@@ -6,12 +6,12 @@ import PeugeotImg from "../../Images/peugeot.jpg";
 import RenaultImg from "../../Images/renault.jpg";
 import SuzukiImg from "../../Images/suzuki.jpg";
 import VwImg from "../../Images/vw.jpg"; 
-import "./details.css";
+import "./gallery.css";
 
-const Details = () => {
+const Gallery = () => {
     return (
         <>
-            <div className="details container" id="details-section">
+            <div className="gallery container" id="gallery-section">
                 <div className="row">
                     <div className="col-sm-4">
                         <div className="box">
@@ -115,4 +115,4 @@ const Details = () => {
     )
 }
 
-export default Details;
+export default Gallery;

@@ -1,9 +1,9 @@
 import "./App.css"; 
 import Navbar from "./Components/Navbar/navbar"; 
-import Header from "./Components/Header/header";
+import Home from "./Components/Home/home";
 import About from "./Components/About/about"; 
-import Details from "./Components/Details/details";
-import SecondHeader from "./Components/Second_Header/second"; 
+import Gallery from "./Components/Gallery/gallery";
+import Contact from "./Components/Contact/contact"; 
 import Footer from "./Components/Footer/footer"; 
 import { BrowserRouter } from "react-router-dom";
 
@@ -11,10 +11,10 @@ const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
-      <Header />
+      <Home />
       <About />
-      <Details /> 
-      <SecondHeader />
+      <Gallery /> 
+      <Contact />
       <Footer />
     </BrowserRouter>
   )

@@ -26,13 +26,13 @@ const Navbar = () => {
                     <ul className="navbar-nav">
                         <li><a href="" className="nav-link">Home</a></li>
                         <li>
-                            <Link to="about-section" smooth={true} duration={500} className="nav-link">
+                            <Link to="/about" smooth={true} duration={500} className="nav-link">
                                 About
                             </Link>
                         </li>
                         <li><a href="" className="nav-link">Contact</a></li>
                         <li>
-                            <Link to="details-section" smooth={true} duration={500} className="nav-link">
+                            <Link to="/gallery" smooth={true} duration={500} className="nav-link">
                                 Gallery
                             </Link>
                         </li>

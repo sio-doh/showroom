@@ -1,31 +1,31 @@
-.details {
+.gallery {
     margin-bottom: 150px;
 } 
-.details .box {
+.gallery .box {
     border: 2px solid #000; 
     border-top: none !important; 
     overflow: hidden;
 }
-.details img { 
+.gallery img { 
     width: 400px; 
     height: 200px;
     object-fit: fill;
 }
-.details .box:hover img {
+.gallery .box:hover img {
     -o-transform: scale(1.1); 
     transform: scale(1.1); 
     cursor: pointer;
 }
-.details .box_content {
+.gallery .box_content {
     padding: 10px;
 }
-.details .box_content h6 {
+.gallery .box_content h6 {
     font-size: 20px; 
     font-weight: 300;
 }
-.details .box_content .btn {
+.gallery .box_content .btn {
     width: 100%;
 }
-.details .mid {
+.gallery .mid {
     margin-top: 80px;
 }
