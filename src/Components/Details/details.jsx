@@ -11,7 +11,7 @@ import "./details.css";
 const Details = () => {
     return (
         <>
-            <div className="details container">
+            <div className="details container" id="details-section">
                 <div className="row">
                     <div className="col-sm-4">
                         <div className="box">
