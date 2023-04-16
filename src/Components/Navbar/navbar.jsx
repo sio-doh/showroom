@@ -1,6 +1,6 @@
 import "./navbar.css"; 
 import React, { useState } from "react"; 
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const [navbar, setNavbar] = useState(false); 
@@ -19,18 +19,18 @@ const Navbar = () => {
                 ? "navbar navbar-expand fixed-top active"
                 : "navbar navbar-expand fixed-top"
             }>
-                <a href="#" className="navbar-brand">
+                <a href="/" className="navbar-brand">
                     <span>C</span>arr Showroom
                 </a>
                 <div>
                     <ul className="navbar-nav">
-                        <li><a href="" className="nav-link">Home</a></li>
+                        <li><Link to="/" className="nav-link">Home</Link></li>
                         <li>
                             <Link to="/about" smooth={true} duration={500} className="nav-link">
                                 About
                             </Link>
                         </li>
-                        <li><a href="" className="nav-link">Contact</a></li>
+                        <li><Link to="/contact" className="nav-link">Contact</Link></li>
                         <li>
                             <Link to="/gallery" smooth={true} duration={500} className="nav-link">
                                 Gallery
@@ -40,7 +40,7 @@ const Navbar = () => {
                 </div>
             </nav>
         </>
-    )
-}
+    );
+};
 
 export default Navbar;

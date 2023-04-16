@@ -14,7 +14,7 @@ const home = () => {
                 </div>
                 <div className="Content">
                     <h6>{" "} Fancy Renting A <span>Snazzy</span> Car?</h6>
-                    <Link to="/gallery" className="btn">Read More</Link>
+                    <Link to="/about" className="btn">Read More</Link>
                 </div>
             </div>
         </>

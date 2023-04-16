@@ -5,19 +5,21 @@ import About from "./Components/About/about";
 import Gallery from "./Components/Gallery/gallery";
 import Contact from "./Components/Contact/contact"; 
 import Footer from "./Components/Footer/footer"; 
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
-      <Home />
-      <About />
-      <Gallery /> 
-      <Contact />
-      <Footer />
+      <Routes>
+        <Route path="/" exact Component={Home} />
+        <Route path="/about" Component={About} />
+        <Route path="/gallery" Component={Gallery} />
+        <Route path="/contact" Component={Contact} />
+      </Routes>
+      <Footer /> 
     </BrowserRouter>
-  )
-}
+  );
+};
 
 export default App;
